@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // 1. Hardcoded Secret (Security Risk)
-const DB_PASSWORD = "SuperSecretPassword123!"; 
+const DB_PASSWORD = "SuperSecretPassword1234!"; 
 
 app.get('/login', (req, res) => {
     const user = req.query.user;
