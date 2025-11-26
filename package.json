@@ -1,0 +1,26 @@
+{
+  "name": "ai-assisted-code-review-with-llm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABHIYANSHU/ai-assisted-code-review-with-llm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ABHIYANSHU/ai-assisted-code-review-with-llm/issues"
+  },
+  "homepage": "https://github.com/ABHIYANSHU/ai-assisted-code-review-with-llm#readme",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.940.0",
+    "dotenv": "^17.2.3",
+    "octokit": "^5.0.5"
+  }
+}
