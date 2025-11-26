@@ -76,3 +76,9 @@ async function main() {
 
     console.log(`🎉 Review Commented: ${reviewDecision.verdict}`);
 }
+
+// Global Error Handler
+main().catch((error) => {
+  console.error("❌ Script Failed:", error);
+  process.exit(1);
+});
